@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IA Futura - Inteligencia Artificial</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-brain"></i> IA Futura
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="historia.html">Historia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tipos.html">Tipos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aplicaciones.html">Aplicaciones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="futuro.html">Futuro</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section con Slider -->
+<section class="hero-section">
+    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active slide-1">
+                <img src="https://images.pexels.com/photos/6153354/pexels-photo-6153354.jpeg" class="d-block w-100" alt="Inteligencia Artificial">
+                <div class="carousel-caption">
+                    <h1>Inteligencia Artificial</h1>
+                    <p>Descubre el futuro de la tecnología y cómo la IA está transformando nuestro mundo</p>
+                    <a href="#about" class="btn btn-custom">Explorar Más</a>
+                </div>
+            </div>
+            <div class="carousel-item slide-2">
+                <img src="https://images.pexels.com/photos/3912962/pexels-photo-3912962.jpeg" class="d-block w-100" alt="Innovación Tecnológica">
+                <div class="carousel-caption">
+                    <h1>Innovación Tecnológica</h1>
+                    <p>Conoce las últimas tendencias en Cloud, IA y Automatización</p>
+                    <a href="#services" class="btn btn-custom">Descubrir</a>
+                </div>
+            </div>
+            <div class="carousel-item slide-3">
+                <img src="https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg" class="d-block w-100" alt="El Futuro es Hoy">
+                <div class="carousel-caption">
+                    <h1>El Futuro es Hoy</h1>
+                    <p>Únete a la revolución tecnológica que está cambiando el mundo</p>
+                    <a href="#contact" class="btn btn-custom">Contáctanos</a>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+</section>
+
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <h2 class="section-title">¿Qué es la Inteligencia Artificial?</h2>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <p class="lead">La Inteligencia Artificial (IA) es una rama de la ciencia computacional que se enfoca en crear sistemas capaces de realizar tareas que normalmente requieren inteligencia humana.</p>
+                    <p>Estos sistemas pueden aprender, razonar, percibir, y tomar decisiones de manera autónoma, revolucionando la forma en que interactuamos con la tecnología.</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-check text-success"></i> Aprendizaje automático</li>
+                        <li><i class="fas fa-check text-success"></i> Procesamiento de lenguaje natural</li>
+                        <li><i class="fas fa-check text-success"></i> Visión por computadora</li>
+                        <li><i class="fas fa-check text-success"></i> Robótica avanzada</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <img src="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg" alt="IA Concept" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section bg-light" id="services">
+        <div class="container">
+            <h2 class="section-title">Áreas de la IA</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfYb-vQbtUC8rriRM1iY0mjfhdS6A13D0cng&s" class="card-img-top" alt="Machine Learning">
+                        <div class="card-body">
+                            <h5 class="card-title">Machine Learning</h5>
+                            <p class="card-text">Algoritmos que permiten a las máquinas aprender de los datos sin ser programadas explícitamente.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://www.initiumsoft.com/blog_initium/wp-content/uploads/2024/08/deep-learning.webp" class="card-img-top" alt="Deep Learning">
+                        <div class="card-body">
+                            <h5 class="card-title">Deep Learning</h5>
+                            <p class="card-text">Redes neuronales profundas que imitan el funcionamiento del cerebro humano.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_753,h_445/https://sensoricx.com/wp-content/uploads/2023/06/NPL_1-753x445.png" class="card-img-top" alt="NLP">
+                        <div class="card-body">
+                            <h5 class="card-title">Procesamiento de Lenguaje Natural</h5>
+                            <p class="card-text">Permite a las máquinas entender y generar lenguaje humano de forma natural.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contáctanos</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="form-container">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="nombre">Nombre Completo</label>
+                                        <input type="text" class="form-control" id="nombre" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="email">Email</label>
+                                        <input type="email" class="form-control" id="email" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="asunto">Asunto</label>
+                                <input type="text" class="form-control" id="asunto" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="mensaje">Mensaje</label>
+                                <textarea class="form-control" id="mensaje" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-custom">Enviar Mensaje</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>IA Futura</h5>
+                    <p>Explorando el futuro de la tecnología y la inteligencia artificial.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Enlaces Útiles</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="historia.html">Historia de la IA</a></li>
+                        <li><a href="tipos.html">Tipos de IA</a></li>
+                        <li><a href="aplicaciones.html">Aplicaciones</a></li>
+                        <li><a href="futuro.html">Futuro de la IA</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Integrantes</h5>
+                    <p><i class=""></i> Barron Taipe, Sebastian Ivan</p>
+                    <p><i class=""></i> Jacome Guanilo, Angel Victor Manuel</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Universidad tecnologíca del Perú</p>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center">
+                <p>&copy; 2024 IA Futura. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script>
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Form submission
+        document.querySelector('form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('¡Mensaje enviado correctamente! Nos pondremos en contacto contigo pronto.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
